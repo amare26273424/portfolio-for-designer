@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet"  href="/css/index.css " />
+
+
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
+    <script type="text/javascript">
+      (function(){
+         emailjs.init("xcakJbKrm4L6Cz_MR");
+      })();
+   </script>
+ 
+</head>
+<body>
+      <section  class="contact">
+         <img src="/photos/Menu.png"  class="menubar" id="menubar"/>
+         
+         <div class="contacthead" id="contacts">
+
+             <a href="/index.html">HOME</a>
+             <a href="about.html">ABOUT</a>
+             <a href="portfolio.html"  >PORTFOLIO</a>
+              <a href="" style="color:#FF7507">CONTACT</a> 
+          </div>
+
+
+
+          <div class="contactbody">
+
+              <h1>CONTACT</h1>
+              <div>
+                <a href="tel:+251988163678" style="color: #666666;"><img src="/photos/Group 14.png" />+251 -988163678</a>
+                <a href="mailto:hiruyfiresibhat@gmail.com"  style="color: #666666;"><img src="/photos/Group 26.png"/> hiruyfiresibhat@gmail.com</a>
+      
+              </div>
+
+          </div> 
+
+         
+         
+          <div class="lastclass">
+                <h3 style="color: orange;">send message</h3>
+                  <div  class="contactform">
+                     <input type="text"  placeholder="name" id="name" required />
+                     <input type="email"  placeholder="email" id='email' required/>
+                     <textarea type="text" placeholder="message" id="textarea" rows="5"></textarea>
+                     <button type="submit" id="submit">send</button>
+                  </div>
+          </div>
+
+          <footer  >
+            <p>copy right @2023 all right reserved</p> 
+        </footer>
+      </section>
+</body>
+</html>
+
+<script src="/js/index.js"></script>
+<script src="/js/email.js"></script>
